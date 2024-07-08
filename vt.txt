@@ -1,0 +1,10 @@
+#version 460 core
+layout (location = 0) in vec2 aPos;
+out vec4 tex;
+uniform vec3 atex;
+uniform mat4 pos;
+void main()
+{
+	gl_Position =  pos*vec4(aPos.x,aPos.y,0.0f, 1.0f);
+	tex = vec4(atex,1.0f);
+}

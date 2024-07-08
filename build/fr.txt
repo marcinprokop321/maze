@@ -1,0 +1,7 @@
+#version 460 core
+out vec4 FragColor;
+in vec4 tex;
+void main()
+{
+    FragColor = tex;
+}

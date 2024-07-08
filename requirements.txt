@@ -1,0 +1,3 @@
+glm
+openGL/glad
+glfw
